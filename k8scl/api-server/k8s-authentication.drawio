@@ -1,0 +1,167 @@
+<mxfile host="65bd71144e">
+    <diagram id="eKtQvBOLtWmzDSFB2qQi" name="Page-1">
+        <mxGraphModel dx="1722" dy="1031" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=20;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="20" width="100" height="500" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;" edge="1" parent="2" target="6">
+                    <mxGeometry width="120" relative="1" as="geometry">
+                        <mxPoint x="49" y="79.31" as="sourcePoint"/>
+                        <mxPoint x="169" y="79.31" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="1. 登录到 IdP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Lucida Console;" vertex="1" connectable="0" parent="28">
+                    <mxGeometry x="-0.1684" y="2" relative="1" as="geometry">
+                        <mxPoint x="8" y="-11" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=14;rotation=-180;direction=south;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="2">
+                    <mxGeometry x="44.5" y="136" width="11" height="56.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=14;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;" edge="1" parent="2" target="24">
+                    <mxGeometry width="120" relative="1" as="geometry">
+                        <mxPoint x="56" y="191" as="sourcePoint"/>
+                        <mxPoint x="176" y="191" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="3. 调用 Kubelet 并设置 --token 为 id_token&lt;br&gt;或者将令牌添加到 .kube/config" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Lucida Console;" vertex="1" connectable="0" parent="37">
+                    <mxGeometry x="-0.7501" y="1" relative="1" as="geometry">
+                        <mxPoint x="155" y="-20" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="身份提供商" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=20;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                    <mxGeometry x="185" y="20" width="213" height="498" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=14;rotation=-180;direction=south;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="6">
+                    <mxGeometry x="105" y="80" width="11" height="56.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Kubectl" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=20;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                    <mxGeometry x="445" y="20" width="100" height="500" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=14;rotation=-180;direction=south;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="24">
+                    <mxGeometry x="48" y="190" width="11" height="56.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=14;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;" edge="1" parent="24" target="26">
+                    <mxGeometry width="120" relative="1" as="geometry">
+                        <mxPoint x="53" y="246" as="sourcePoint"/>
+                        <mxPoint x="208" y="246" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="4. Authorization: Bearer..." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Lucida Console;" vertex="1" connectable="0" parent="41">
+                    <mxGeometry x="-0.2224" y="-1" relative="1" as="geometry">
+                        <mxPoint x="22" y="-14" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=14;rotation=-180;direction=south;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="24">
+                    <mxGeometry x="48" y="398" width="11" height="56.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="API 服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=20;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                    <mxGeometry x="612" y="20" width="117" height="499" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=14;rotation=-180;direction=south;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="26">
+                    <mxGeometry x="55" y="246" width="11" height="151.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=10;endArrow=openThin;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0.789;entryY=1.202;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;" edge="1" parent="26" target="40">
+                    <mxGeometry width="120" relative="1" as="geometry">
+                        <mxPoint x="66" y="259" as="sourcePoint"/>
+                        <mxPoint x="151" y="289" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="166" y="259"/>
+                            <mxPoint x="166" y="279"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="6. JWT expire？" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Lucida Console;" vertex="1" connectable="0" parent="43">
+                    <mxGeometry x="-0.6792" relative="1" as="geometry">
+                        <mxPoint x="16" y="52" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" value="5. JWT 签名合法？" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Lucida Console;" vertex="1" connectable="0" parent="26">
+                    <mxGeometry x="117" y="269" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="7. 用户授权了？" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Lucida Console;" vertex="1" connectable="0" parent="26">
+                    <mxGeometry x="117" y="362" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=14;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;dashed=1;" edge="1" parent="1" source="6" target="2">
+                    <mxGeometry width="120" relative="1" as="geometry">
+                        <mxPoint x="148" y="353" as="sourcePoint"/>
+                        <mxPoint x="161" y="168" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="196" y="153"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="2. 提供 access_token、&lt;br&gt;id_token和 refresh_token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Lucida Console;" vertex="1" connectable="0" parent="33">
+                    <mxGeometry x="0.1284" y="2" relative="1" as="geometry">
+                        <mxPoint x="19" y="-25" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=10;endArrow=openThin;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0.789;entryY=1.202;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;" edge="1" parent="1">
+                    <mxGeometry width="120" relative="1" as="geometry">
+                        <mxPoint x="678" y="319.56" as="sourcePoint"/>
+                        <mxPoint x="680.222" y="340.0035" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="778" y="319.56"/>
+                            <mxPoint x="778" y="339.56"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=10;endArrow=openThin;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0.789;entryY=1.202;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;" edge="1" parent="1">
+                    <mxGeometry width="120" relative="1" as="geometry">
+                        <mxPoint x="678" y="370.99999999999994" as="sourcePoint"/>
+                        <mxPoint x="680.222" y="391.44350000000003" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="778" y="371"/>
+                            <mxPoint x="778" y="391"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=10;endArrow=openThin;endFill=0;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="40" target="24">
+                    <mxGeometry width="120" relative="1" as="geometry">
+                        <mxPoint x="602" y="461" as="sourcePoint"/>
+                        <mxPoint x="566" y="399" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" value="8. 已授权，执行操作返回结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Lucida Console;" vertex="1" connectable="0" parent="52">
+                    <mxGeometry x="0.3269" y="-1" relative="1" as="geometry">
+                        <mxPoint x="32" y="-6" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=10;endArrow=openThin;endFill=0;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="51" target="2">
+                    <mxGeometry width="120" relative="1" as="geometry">
+                        <mxPoint x="429" y="621" as="sourcePoint"/>
+                        <mxPoint x="246" y="589" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="9. 返回结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Lucida Console;" vertex="1" connectable="0" parent="54">
+                    <mxGeometry x="0.2625" y="-1" relative="1" as="geometry">
+                        <mxPoint x="31" y="-9" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="61" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="519" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="&lt;span style=&quot;font-size: 20px&quot;&gt;Kubectl&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=10;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                    <mxGeometry x="445" y="519" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="&lt;span style=&quot;font-size: 20px&quot;&gt;API 服务器&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=10;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                    <mxGeometry x="610.5" y="520" width="118.5" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="&lt;span style=&quot;font-size: 20px&quot;&gt;用户&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=10;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="519.5" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="&lt;span style=&quot;font-size: 20px&quot;&gt;身份提供商&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=10;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                    <mxGeometry x="222.75" y="520" width="137.5" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
