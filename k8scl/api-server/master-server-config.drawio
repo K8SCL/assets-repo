@@ -1,0 +1,109 @@
+<mxfile host="65bd71144e">
+    <diagram id="3s3ms7zDK6NBSDH7SErP" name="Page-1">
+        <mxGraphModel dx="1864" dy="1276" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="10" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="10" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="10" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="10" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="cmd/kube-apiserver\app\server.go:&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;font color=&quot;#ffb366&quot; style=&quot;font-size: 16px&quot;&gt;CreateKubeAPIServerConfig()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="-172" y="-290" width="348" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="11" target="28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="cmd/kube-apiserver\app\server.go:&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;font color=&quot;#ffb366&quot;&gt;buildGenericConfig()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="337" y="-353" width="442" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="335" y="-250" width="451" height="107" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="准备 ClusterAuthenticationInfo" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#409EFF;" vertex="1" parent="15">
+                    <mxGeometry width="299" height="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="ClientCA - 设置 Client 证书的颁发机构；&lt;br&gt;aggregated api server 和 aggregator，携带独特具有用户信息的 Header" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="15">
+                    <mxGeometry y="37" width="451" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="337" y="-94" width="451" height="107" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="注册 admissionPostStartHook" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#409EFF;" vertex="1" parent="17">
+                    <mxGeometry width="299" height="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="作用是启动一个 go routine,在 server 结束时清理一些cache 信息" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="17">
+                    <mxGeometry y="37" width="451" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="337" y="72" width="451" height="107" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="准备 OpenID 验证机构的信息" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#409EFF;" vertex="1" parent="20">
+                    <mxGeometry width="299" height="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="客户端向 API Server 发送一个请求，可以带上 OpenID 机构提供的身份信息，API Server 可以根据此信息识别用户。这里配置 API Server 所使用的 OpenID 机构信息" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="20">
+                    <mxGeometry y="37" width="451" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="895" y="-360" width="20" height="537" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="933" y="-366.5" width="495.5" height="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="&lt;div style=&quot;&quot;&gt;制作 FlowControl，用于 Priority 和 Fairness 控制&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="75">
+                    <mxGeometry x="1.5" y="520" width="456" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="&lt;div style=&quot;&quot;&gt;&lt;span&gt;应用 option 中 Authentication 到多出&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="75">
+                    <mxGeometry y="365" width="369" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="&lt;div style=&quot;&quot;&gt;&lt;span&gt;应用 option 中的 audit 设置&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="75">
+                    <mxGeometry y="400" width="369" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;span style=&quot;&quot;&gt;准备 StorageFactory，考虑 option 中 etcd 设置&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="75">
+                    <mxGeometry x="-0.5" y="283.5" width="454" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="&lt;div style=&quot;&quot;&gt;制作一个 shared informer：versionedInformers&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="75">
+                    <mxGeometry x="1.5" y="326" width="452" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="&lt;span style=&quot;&quot;&gt;应用 option 中 Traces&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="75">
+                    <mxGeometry x="1.5" y="210" width="369" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;div style=&quot;&quot;&gt;&lt;span&gt;准备 OpenAPIConfig&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="75">
+                    <mxGeometry x="1.5" y="248" width="369" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;span style=&quot;&quot;&gt;应用 option 中 SecureServing&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="75">
+                    <mxGeometry y="66" width="369" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="&lt;span style=&quot;&quot;&gt;应用 option 中 Features&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="75">
+                    <mxGeometry y="101" width="369" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="从 Generic Server 得到 Config" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="75">
+                    <mxGeometry width="369" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="应用 option 中 GenericServerRunOptions" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="75">
+                    <mxGeometry y="36" width="369" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&lt;span style=&quot;&quot;&gt;应用 option 中 APIEnablement&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="75">
+                    <mxGeometry y="139" width="369" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="&lt;span style=&quot;&quot;&gt;应用 option 中 EgressSelector&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="75">
+                    <mxGeometry x="1.5" y="174" width="369" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="&lt;div style=&quot;&quot;&gt;&lt;span&gt;制作 pluginInitializers，admissionPostStartHook&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="75">
+                    <mxGeometry x="1.5" y="442" width="494" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="&lt;div style=&quot;&quot;&gt;应用 option 中 Admission 到多出&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="75">
+                    <mxGeometry x="1.5" y="479" width="369" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
