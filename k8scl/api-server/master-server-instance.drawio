@@ -1,0 +1,100 @@
+<mxfile host="65bd71144e">
+    <diagram id="8zIVZn-1u4INnXMkIcph" name="第 1 页">
+        <mxGraphModel dx="2891" dy="1251" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=16;fontColor=#FFB366;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="2" target="12">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-23" y="265"/>
+                            <mxPoint x="-23" y="364"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=16;fontColor=#FFB366;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="2" target="15">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-23" y="265"/>
+                            <mxPoint x="-23" y="564"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=16;fontColor=#FFB366;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-103" y="265" as="sourcePoint"/>
+                        <mxPoint x="96" y="790.5" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-23" y="265"/>
+                            <mxPoint x="-23" y="791"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Lucida Console;fontSize=16;fontColor=#FFB366;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-107.00000000000023" y="265" as="sourcePoint"/>
+                        <mxPoint x="55" y="99" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-23" y="265"/>
+                            <mxPoint x="-23" y="99"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="controlplane/instance.go:&lt;br&gt;&lt;font color=&quot;#ffb366&quot;&gt;completedConfig.New()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="-623" y="222" width="513" height="86" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="group;fillColor=#eeeeee;strokeColor=none;sketch=0;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="91" y="194" width="548" height="82" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="安装 LegacyAPI" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=20;fontColor=#409EFF;" vertex="1" parent="9">
+                    <mxGeometry width="183" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="用于支持 Pod 这类 Core API Resource" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=20;fontColor=#000000;" vertex="1" parent="9">
+                    <mxGeometry y="46" width="548" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="group;fillColor=#eeeeee;strokeColor=none;sketch=0;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="90" y="309" width="548" height="82" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="安装内建 API" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=20;fontColor=#409EFF;" vertex="1" parent="10">
+                    <mxGeometry width="183" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="用于支持那些内建的，带有 API Group 的 API Resource" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=20;fontColor=#000000;" vertex="1" parent="10">
+                    <mxGeometry y="46" width="548" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="group;labelBorderColor=none;labelBackgroundColor=none;fillColor=#eeeeee;strokeColor=none;sketch=0;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="91" y="438" width="743" height="224" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Post start hook：start-cluster-authentication-info=controller" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=20;fontColor=#409EFF;" vertex="1" parent="13">
+                    <mxGeometry width="743" height="36.12903225806452" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="当用于自定义了 API Server（Custom API Server）并通过 API Server Object 加入到 API Server 中时，我们需要合并它和 API Server 各自的 Authentication 信息并协会他的 authentication 设置（在 kube-system 的 &lt;font color=&quot;#ffb366&quot;&gt;configmaps/extension-apiserver-authentication&lt;/font&gt; 中）" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=20;fontColor=#000000;" vertex="1" parent="13">
+                    <mxGeometry y="52" width="621" height="147" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="group;fillColor=#eeeeee;strokeColor=none;sketch=0;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="97" y="700" width="743" height="166" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Post start hook：identify-lease 相关" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=20;fontColor=#409EFF;" vertex="1" parent="16">
+                    <mxGeometry width="743" height="26.7741935483871" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="为每一个 API Server 创建一个 lease（租约），并在超过租期没有续约后清除这些 lease。引入 identify 的原因是在 HA 集群中，需要用到 可用的 API Server 列表" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=20;fontColor=#000000;" vertex="1" parent="16">
+                    <mxGeometry y="41" width="621" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="group;fillColor=#eeeeee;strokeColor=none;spacingTop=2;sketch=0;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="90" y="35" width="856" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="New 一个 Generic Server" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=20;fontColor=#000000;" vertex="1" parent="19">
+                    <mxGeometry width="285" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="开关打开的话，注册 logs 相关的 endpoint" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=20;fontColor=#000000;" vertex="1" parent="19">
+                    <mxGeometry y="42" width="432" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="制作 OpenIDMetadata，并且注册相关的 endpoint (用于获取所用的 Provider 信息)" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=20;fontColor=#000000;" vertex="1" parent="19">
+                    <mxGeometry y="90" width="856" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=20;fontColor=#FFB366;" vertex="1" parent="1">
+                    <mxGeometry x="58" y="39" width="20" height="120" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
