@@ -1,0 +1,63 @@
+<mxfile host="65bd71144e">
+    <diagram id="E8r0akFakqUoOm9BxAa6" name="第 1 页">
+        <mxGraphModel dx="2160" dy="1444" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="7" value="" style="group;dashed=1;strokeColor=none;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="336" y="-8" width="643" height="623" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="group;strokeColor=default;dashed=1;dashPattern=1 1;spacing=10;" vertex="1" connectable="0" parent="7">
+                    <mxGeometry width="641" height="101.54625550660793" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="复制 Master API Server 的 Config" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=18;fontColor=#409EFF;" vertex="1" parent="8">
+                    <mxGeometry width="547.4486486486487" height="27.44493392070485" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="形成自己的 Generic Config。大部分都是直接复用 Master 的，只需要清除 PostStartHooks，RESTOptionsGetter 和设置&amp;nbsp;&lt;span style=&quot;background-color: rgb(32 , 40 , 49) ; color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px&quot;&gt;SkipOpenAPIInstallation &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; color: rgb(64 , 191 , 119)&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;background-color: rgb(32 , 40 , 49) ; color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px&quot;&gt; true&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=18;" vertex="1" parent="8">
+                    <mxGeometry y="35.678414096916306" width="641" height="65.86784140969165" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="group;strokeColor=default;dashed=1;spacing=10;" vertex="1" connectable="0" parent="7">
+                    <mxGeometry y="132.65051395007342" width="641" height="101.54625550660793" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="用 Option 中的信息和 Aggregator 自身的信息设置 Admission" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=18;fontColor=#409EFF;" vertex="1" parent="11">
+                    <mxGeometry width="627" height="27.44493392070485" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="制作流程和 Master 中是一样的：&lt;br&gt;*options.ServerRunOptions.Admission.ApplyTo(),不同的结果主要作用在上述的 Generic Config" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=18;" vertex="1" parent="11">
+                    <mxGeometry y="35.678414096916306" width="641" height="65.86784140969165" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="group;dashed=1;strokeColor=default;spacing=10;" vertex="1" connectable="0" parent="7">
+                    <mxGeometry x="4" y="258.8972099853157" width="638" height="101.54625550660793" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="制作 RESTOptionsGetter" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=18;fontColor=#409EFF;" vertex="1" parent="14">
+                    <mxGeometry width="617" height="27.44493392070485" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="group;spacing=10;strokeColor=default;dashed=1;" vertex="1" connectable="0" parent="7">
+                    <mxGeometry x="6" y="389.7180616740088" width="637" height="101.54625550660793" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="填充&amp;nbsp;&lt;span style=&quot;background-color: rgb(32 , 40 , 49) ; color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px&quot;&gt;APIEnablement&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=18;fontColor=#409EFF;" vertex="1" parent="17">
+                    <mxGeometry x="1" width="634.7127468581688" height="27.44493392070485" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="group;strokeColor=default;dashed=1;spacing=10;" vertex="1" connectable="0" parent="7">
+                    <mxGeometry x="9" y="521.4537444933922" width="634" height="101.54625550660793" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="制作&amp;nbsp;&lt;span style=&quot;background-color: rgb(32 , 40 , 49) ; font-family: &amp;#34;jetbrains mono&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;aggregatorConfig &lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;并返回&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=18;fontColor=#409EFF;" vertex="1" parent="20">
+                    <mxGeometry width="541.4702702702702" height="27.44493392070485" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=#3333FF;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=18;fontColor=#409EFF;" vertex="1" parent="1">
+                    <mxGeometry x="286" y="11" width="20" height="586" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Lucida Console;fontSize=18;fontColor=#409EFF;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="3" target="23">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="112" y="444.5" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="40" y="304"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="cmd/kube-apiserver/app/aggregator.go&lt;br&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; background-color: rgb(32 , 40 , 49) ; font-family: &amp;#34;jetbrains mono&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; line-height: 22px&quot;&gt;&lt;span style=&quot;color: #ffc66d&quot;&gt;createAggregatorConfig()&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="-208" y="254" width="410" height="99" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
