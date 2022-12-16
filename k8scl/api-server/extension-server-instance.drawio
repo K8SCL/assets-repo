@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="xyFVksFQk4mhZxvsl8o6" name="第 1 页">
-        <mxGraphModel dx="3724" dy="2371" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1508" dy="1057" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -68,13 +68,13 @@
                     <mxGeometry x="348" y="-336" width="340" height="24" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" value="" style="group" vertex="1" connectable="0" parent="1">
-                    <mxGeometry x="335" y="35" width="454" height="139" as="geometry"/>
+                    <mxGeometry x="335" y="9" width="454" height="165" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="这类 Object 是通过 CRD 动态创建出来的，不能利用 Generic Server 的 InstallAPIGroup 去装载他们；那么真多 /api,/apis,/api/&amp;lt;group&amp;gt;,/apis/&amp;lt;group&amp;gt;,&lt;br&gt;/apis/&amp;lt;group&amp;gt;/&amp;lt;version&amp;gt;,/apis/&amp;lt;group&amp;gt;/&amp;lt;version&amp;gt;/&amp;lt;resource&amp;gt; 的请求就需要 handler" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="23">
-                    <mxGeometry y="37" width="451" height="102" as="geometry"/>
+                <mxCell id="13" value="这类 Object 是通过 CRD 动态创建出来的，不能利用 Generic Server 的 InstallAPIGroup 去装载他们；那么针对：&lt;br&gt;/apis,/apis/,&lt;br&gt;/apis/&amp;lt;group&amp;gt;,/apis/&amp;lt;group&amp;gt;/&amp;lt;version&amp;gt;,&lt;br&gt;/apis/&amp;lt;group&amp;gt;/&amp;lt;version&amp;gt;/&amp;lt;resource&amp;gt; &lt;br&gt;的请求就需要 handler" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="23">
+                    <mxGeometry y="43.92086330935252" width="451" height="121.07913669064747" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" value="制作 Custom Resource 的 http request handler" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#409EFF;" vertex="1" parent="23">
-                    <mxGeometry x="2" width="452" height="24" as="geometry"/>
+                    <mxGeometry x="2" width="452" height="28.489208633093522" as="geometry"/>
                 </mxCell>
                 <mxCell id="30" value="" style="group" vertex="1" connectable="0" parent="1">
                     <mxGeometry x="1088" y="-295" width="516" height="600" as="geometry"/>

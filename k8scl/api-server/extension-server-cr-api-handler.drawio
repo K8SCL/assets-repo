@@ -1,0 +1,81 @@
+<mxfile host="65bd71144e">
+    <diagram id="T5Ow_JPBvX_jSdW3rE9b" name="第 1 页">
+        <mxGraphModel dx="2937" dy="1667" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-504" y="160" width="608" height="334" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;staging/src/k8s.io/apiextensions-apiserver/pkg/apiserver/customresource_handler.go&lt;br&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; background-color: rgb(32 , 40 , 49) ; font-family: &amp;#34;jetbrains mono&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; line-height: 22px&quot;&gt;&lt;span style=&quot;color: #ffc66d&quot;&gt;NewCustomResourceDefinitionHandler&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=18;" vertex="1" parent="6">
+                    <mxGeometry width="608" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;font style=&quot;font-size: 18px&quot;&gt;staging/src/k8s.io/apiextensions-apiserver/pkg/apiserver/customresource_handler.go&lt;br&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; background-color: rgb(32 , 40 , 49) ; font-family: &amp;#34;jetbrains mono&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; line-height: 22px&quot;&gt;&lt;span style=&quot;color: #f3c811 ; font-style: italic&quot;&gt;crdHandler.ServeHTTP()&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=18;" vertex="1" parent="6">
+                    <mxGeometry y="235" width="608" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" style="edgeStyle=none;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=18;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="6" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="创建出 crdHandler 结构体实例" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontFamily=Lucida Console;" vertex="1" connectable="0" parent="4">
+                    <mxGeometry x="-0.1875" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="" style="group;dashed=1;strokeColor=none;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="336" y="-8" width="643" height="681" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="group;strokeColor=default;dashed=1;dashPattern=1 1;spacing=10;" vertex="1" connectable="0" parent="25">
+                    <mxGeometry width="641" height="111" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="处理 apis/&amp;lt;group&amp;gt;/&amp;lt;version&amp;gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=18;fontColor=#409EFF;" vertex="1" parent="11">
+                    <mxGeometry width="547.4486486486487" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="这属于列举 version 下的 API Resource 的请求，交给 version discovery 去处理" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=18;" vertex="1" parent="11">
+                    <mxGeometry y="39" width="641" height="72" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="group;strokeColor=default;dashed=1;spacing=10;" vertex="1" connectable="0" parent="25">
+                    <mxGeometry y="145" width="641" height="111" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="处理 apis/&amp;lt;group&amp;gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=18;fontColor=#409EFF;" vertex="1" parent="12">
+                    <mxGeometry width="547.4486486486487" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="这属于列举 group 下所有的 version 下的 api resource 的请求，交给 group discovery 去处理" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=18;" vertex="1" parent="12">
+                    <mxGeometry y="39" width="641" height="72" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="group;dashed=1;strokeColor=default;spacing=10;" vertex="1" connectable="0" parent="25">
+                    <mxGeometry x="4" y="283" width="638" height="111" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="检验 crd 和请求中的 namespace 是否相符，condition 是否为 true" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=18;fontColor=#409EFF;" vertex="1" parent="15">
+                    <mxGeometry width="617" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="如果 ns 不符，返回 nil；如果 condition 不是 true，也返回 nil，condition 就是由那些 controller 的计算结果决定的" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=18;" vertex="1" parent="15">
+                    <mxGeometry y="39" width="638" height="72" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="group;spacing=10;strokeColor=default;dashed=1;" vertex="1" connectable="0" parent="25">
+                    <mxGeometry x="6" y="426" width="637" height="111" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="获取 http request 的 handler function" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=18;fontColor=#409EFF;" vertex="1" parent="18">
+                    <mxGeometry width="634.7127468581688" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="根据请求目标 /resource 的 status， scale 调用 serveResource，serveStatus，serveScale，来得到一个 http request handler function （&lt;font color=&quot;#ff9933&quot;&gt;这里很重要&lt;/font&gt;）" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=18;" vertex="1" parent="18">
+                    <mxGeometry y="39" width="637" height="72" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="group;strokeColor=default;dashed=1;spacing=10;" vertex="1" connectable="0" parent="25">
+                    <mxGeometry x="9" y="570" width="634" height="111" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="调用 handler" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=18;fontColor=#409EFF;" vertex="1" parent="22">
+                    <mxGeometry width="541.4702702702702" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="最后掉用得到的 handler" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=18;" vertex="1" parent="22">
+                    <mxGeometry y="39" width="634" height="72" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=#3333FF;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=18;fontColor=#409EFF;" vertex="1" parent="1">
+                    <mxGeometry x="286" y="11" width="20" height="586" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Lucida Console;fontSize=18;fontColor=#409EFF;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="3" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
