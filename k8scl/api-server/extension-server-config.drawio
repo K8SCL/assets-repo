@@ -1,0 +1,82 @@
+<mxfile host="65bd71144e">
+    <diagram id="LihjV0bES3uOoZtM_kCF" name="第 1 页">
+        <mxGraphModel dx="1896" dy="1287" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="23">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="337" y="-328" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="6" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="6" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="6" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;cmd/kube-apiserver/app/apiextensions.go:&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;font color=&quot;#ff9933&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;createAPIExtensionsConfig&lt;/span&gt;()&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="-219" y="-290" width="395" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="335" y="-250" width="505" height="107" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="用 Option 中的信息和 Extension 自身的信息设置 Admission" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#409EFF;" vertex="1" parent="8">
+                    <mxGeometry width="505" height="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="制作流程和 Master 是一样的：&lt;br&gt;*options.ServerRunOptions.Addmission.ApplyTo()&lt;br&gt;不同的参数用 Extension Server 相关的。结果主要作用在 Generic Config" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="8">
+                    <mxGeometry y="37" width="451" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="337" y="-94" width="451" height="107" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="制作 RESTOptionsGetter" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#409EFF;" vertex="1" parent="11">
+                    <mxGeometry width="299" height="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="复制的时候这个信息被擦除了，用 Extension 自己的 ETCDOptions 做一个新的，放入到 Generic Config" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="11">
+                    <mxGeometry y="37" width="451" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="337" y="72" width="548" height="107" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="用 Option 中的信息和 Extension 自身的信息设置 APIEngagement&amp;nbsp;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#409EFF;" vertex="1" parent="14">
+                    <mxGeometry width="548" height="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="制作流程和 Master 是一样的：&lt;br&gt;*options.ServerRunOptions.APIEngagement.ApplyTo()&lt;br&gt;主要作用在 Generic Config" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="14">
+                    <mxGeometry y="37" width="451" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="335" y="201" width="451" height="107" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="制作 Extension Config 并返回" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#409EFF;" vertex="1" parent="17">
+                    <mxGeometry width="356" height="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="生成 Extension Config 结构体实例，填入之前做出的 Generic Config。除此之外，另一个字段 “CRDRESTOptionsGetter” 是基于前序 “etcdOptions” 做出来的" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="17">
+                    <mxGeometry y="37" width="451" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;sketch=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6">
+                    <mxGeometry width="120" relative="1" as="geometry">
+                        <mxPoint x="52" y="36" as="sourcePoint"/>
+                        <mxPoint x="331" y="267" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="252" y="-265"/>
+                            <mxPoint x="252" y="267"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="335" y="-397" width="451" height="107" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="复制 Master API Server 的 Config" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#409EFF;" vertex="1" parent="21">
+                    <mxGeometry width="340" height="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="形成自己的 Generic Config。大部分都是直接复用 Master 的，只需要清楚 PostStartHook 和 RESTOptionsGetter" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="21">
+                    <mxGeometry y="37" width="451" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

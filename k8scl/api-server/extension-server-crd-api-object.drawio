@@ -23,6 +23,15 @@
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
+                <mxCell id="18" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-989" y="467" width="898" height="125" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="对 Server 实例的影响" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=22;fontColor=#FF9933;" vertex="1" parent="18">
+                    <mxGeometry width="251" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Generic Server 所提供的 InstallAPIGroup 方法能够装载 “静态” API Object，从而使得 Server 能处理他们的请求；但是这个装载方法只能覆盖 CRD，而 Customer Resource 是可能被动态创建出来的，所以需要其他的方式把他们装载到 Server 中，从而响应针对他们的请求" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=18;fontColor=#000000;" vertex="1" parent="18">
+                    <mxGeometry y="51" width="898" height="74" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
