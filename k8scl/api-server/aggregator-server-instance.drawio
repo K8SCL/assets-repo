@@ -1,0 +1,100 @@
+<mxfile host="65bd71144e">
+    <diagram id="xyFVksFQk4mhZxvsl8o6" name="第 1 页">
+        <mxGraphModel dx="2537" dy="1227" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="6" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="224" y="-22"/>
+                            <mxPoint x="224" y="-65"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.419;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryPerimeter=0;" parent="1" source="6" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="224" y="-22"/>
+                            <mxPoint x="224" y="272"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="6" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="224" y="-22"/>
+                            <mxPoint x="224" y="-178"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="6" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="224" y="-22"/>
+                            <mxPoint x="224" y="-305"/>
+                            <mxPoint x="348" y="-305"/>
+                        </Array>
+                        <mxPoint x="348" y="-305" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.305;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Lucida Console;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="6" target="13">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="224" y="-22"/>
+                            <mxPoint x="224" y="93"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;cmd/kube-apiserver/app/aggregator.go:&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;font color=&quot;#ff9933&quot; face=&quot;jetbrains mono, consolas, courier new, monospace&quot;&gt;createAggregatorServer()&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="-198" y="-58" width="366" height="79" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="group;strokeColor=default;dashed=1;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="345" y="-249" width="564" height="107" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="制作一个创建、修改、 APIService 的 Controller" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#409EFF;" parent="7" vertex="1">
+                    <mxGeometry width="564" height="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="来把对这类 API Resource 的创建、修改、删除落实到 ETCD 中" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" parent="7" vertex="1">
+                    <mxGeometry y="37" width="562.8831683168318" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="group;strokeColor=default;dashed=1;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="343" y="-120" width="566" height="107" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="为所有内建的 API Group 的各个 Version 生成 APIService" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#409EFF;" parent="10" vertex="1">
+                    <mxGeometry width="566" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="内建的 Group 的各个 Version 都会有一个对应的 APIService resource 被生成出来，交给上述的 Controller 存储到 ETCD 当中" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" parent="10" vertex="1">
+                    <mxGeometry y="37" width="510.5319999999999" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="group;strokeColor=default;dashed=1;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="343" y="206" width="561" height="107" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="post start hook" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#409EFF;" parent="14" vertex="1">
+                    <mxGeometry width="442.8292682926829" height="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="在 Post Start Hook 中启动以上的两个 Controller：&lt;br&gt;一个是保管 APIService Resource 的，一个是监控 CR 创建的" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" parent="14" vertex="1">
+                    <mxGeometry y="37" width="561" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="group;strokeColor=default;dashed=1;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="343" y="12" width="561" height="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="类似内建 Group，CR 的 Group 的各个 Version 同样要有 APIService Resource 去对应。建好后同样交给上述 Controller 存储到 ETCD。这还需要用到要给 Controller 去监控 CR 的创建，应为 CR 会被用户随时创建无法提前拿到" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" parent="23" vertex="1">
+                    <mxGeometry y="43.92086330935252" width="451" height="121.07913669064747" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="为由 CRD 创建出的 API Group 的各个 Version 生成 APIService" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#409EFF;" parent="23" vertex="1">
+                    <mxGeometry x="2" width="559" height="28.49" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="group;strokeColor=default;dashed=1;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="348" y="-336" width="560" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="生成一个 Aggregator" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#409EFF;" parent="40" vertex="1">
+                    <mxGeometry width="520.2185792349726" height="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="这个是主要逻辑所在地" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="40">
+                    <mxGeometry y="30" width="560" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
