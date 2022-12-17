@@ -1,16 +1,16 @@
 <mxfile host="65bd71144e">
     <diagram id="xyFVksFQk4mhZxvsl8o6" name="第 1 页">
-        <mxGraphModel dx="1508" dy="1057" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1896" dy="1287" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="6" target="12">
+                <mxCell id="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="6" target="12" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="6" target="13">
+                <mxCell id="32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="6" target="13" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="6" target="16">
+                <mxCell id="33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="6" target="16" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="224" y="-22"/>
@@ -18,7 +18,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="6" target="9">
+                <mxCell id="34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="6" target="9" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="224" y="-22"/>
@@ -26,7 +26,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="6" target="19">
+                <mxCell id="37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="6" target="19" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="224" y="-22"/>
@@ -34,70 +34,70 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="6" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;staging/src/k8s.io/apiextensions-apiserver/pkg/apiserver/apiserver.go:&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;font color=&quot;#ff9933&quot; face=&quot;jetbrains mono, consolas, courier new, monospace&quot;&gt;completedConfig.New()&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="1">
+                <mxCell id="6" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;staging/src/k8s.io/apiextensions-apiserver/pkg/apiserver/apiserver.go:&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;font color=&quot;#ff9933&quot; face=&quot;jetbrains mono, consolas, courier new, monospace&quot;&gt;completedConfig.New()&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;" parent="1" vertex="1">
                     <mxGeometry x="-388" y="-61.5" width="511" height="79" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="7" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="335" y="-250" width="505" height="107" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="安装 API Group 下的 Object 到 Generic Server" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#409EFF;" vertex="1" parent="7">
+                <mxCell id="8" value="安装 API Group 下的 Object 到 Generic Server" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#409EFF;" parent="7" vertex="1">
                     <mxGeometry width="505" height="24" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="Group “apiextensions.k8s.io” 下只有 “CustomResourceDefinition” 一个 Object；&lt;br&gt;准备好 API Group Information 后，调用 Generic Server 的 InstallAPIGroup 方法" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="7">
+                <mxCell id="9" value="Group “apiextensions.k8s.io” 下只有 “CustomResourceDefinition” 一个 Object；&lt;br&gt;准备好 API Group Information 后，调用 Generic Server 的 InstallAPIGroup 方法" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" parent="7" vertex="1">
                     <mxGeometry y="37" width="504" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="10" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="337" y="-94" width="451" height="107" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="制作一个 Informer" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#409EFF;" vertex="1" parent="10">
+                <mxCell id="11" value="制作一个 Informer" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#409EFF;" parent="10" vertex="1">
                     <mxGeometry width="299" height="24" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="作为后续监控 CRD 的变更之用" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="10">
+                <mxCell id="12" value="作为后续监控 CRD 的变更之用" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" parent="10" vertex="1">
                     <mxGeometry y="37" width="451" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="14" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="335" y="201" width="451" height="107" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="制作 controller，放入 post start hook" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#409EFF;" vertex="1" parent="14">
+                <mxCell id="15" value="制作 controller，放入 post start hook" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#409EFF;" parent="14" vertex="1">
                     <mxGeometry width="356" height="24" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="通过 post start hook 来启动一系列 controller，他们都是去监控 Costom Resource的变更情况（也就是 CRD 实例的变更）来做出必要的调整，具体由如下 controller" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="14">
+                <mxCell id="16" value="通过 post start hook 来启动一系列 controller，他们都是去监控 Costom Resource的变更情况（也就是 CRD 实例的变更）来做出必要的调整，具体由如下 controller" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" parent="14" vertex="1">
                     <mxGeometry y="37" width="451" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="New 一个 Generic Server" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#409EFF;" vertex="1" parent="1">
+                <mxCell id="19" value="New 一个 Generic Server" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#409EFF;" parent="1" vertex="1">
                     <mxGeometry x="348" y="-336" width="340" height="24" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="23" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="335" y="9" width="454" height="165" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="这类 Object 是通过 CRD 动态创建出来的，不能利用 Generic Server 的 InstallAPIGroup 去装载他们；那么针对：&lt;br&gt;/apis,/apis/,&lt;br&gt;/apis/&amp;lt;group&amp;gt;,/apis/&amp;lt;group&amp;gt;/&amp;lt;version&amp;gt;,&lt;br&gt;/apis/&amp;lt;group&amp;gt;/&amp;lt;version&amp;gt;/&amp;lt;resource&amp;gt; &lt;br&gt;的请求就需要 handler" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="23">
+                <mxCell id="13" value="这类 Object 是通过 CRD 动态创建出来的，不能利用 Generic Server 的 InstallAPIGroup 去装载他们；那么针对：&lt;br&gt;/apis,/apis/,&lt;br&gt;/apis/&amp;lt;group&amp;gt;,/apis/&amp;lt;group&amp;gt;/&amp;lt;version&amp;gt;,&lt;br&gt;/apis/&amp;lt;group&amp;gt;/&amp;lt;version&amp;gt;/&amp;lt;resource&amp;gt; &lt;br&gt;的请求就需要 handler" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" parent="23" vertex="1">
                     <mxGeometry y="43.92086330935252" width="451" height="121.07913669064747" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="制作 Custom Resource 的 http request handler" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#409EFF;" vertex="1" parent="23">
+                <mxCell id="22" value="制作 Custom Resource 的 http request handler" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#409EFF;" parent="23" vertex="1">
                     <mxGeometry x="2" width="452" height="28.489208633093522" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="30" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="1088" y="-295" width="516" height="600" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="discoverController：调整以便正确处理针对 CR 的 /apis/&amp;lt;group&amp;gt;,/apis/&amp;lt;group&amp;gt;/&amp;lt;version&amp;gt; 请求" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="30">
+                <mxCell id="24" value="discoverController：调整以便正确处理针对 CR 的 /apis/&amp;lt;group&amp;gt;,/apis/&amp;lt;group&amp;gt;/&amp;lt;version&amp;gt; 请求" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;" parent="30" vertex="1">
                     <mxGeometry width="516" height="73" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="namingController：检测 CR 命名上的规范，更新 status" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="30">
+                <mxCell id="25" value="namingController：检测 CR 命名上的规范，更新 status" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;" parent="30" vertex="1">
                     <mxGeometry y="111" width="516" height="73" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="noStructualSchemaController：validate 数据是否合乎 openapi v3 的 schema，有错的话更新到 status" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="30">
+                <mxCell id="26" value="noStructualSchemaController：validate 数据是否合乎 openapi v3 的 schema，有错的话更新到 status" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;" parent="30" vertex="1">
                     <mxGeometry y="223" width="516" height="73" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="apiApprovalController：创建 k8s.io namespace 下的 CR 时，需要设置 annotation &quot;api-approved.kubernetes.io&quot;，approved 的 CR，该值要以 &quot;approved&quot; 开头" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="30">
+                <mxCell id="27" value="apiApprovalController：创建 k8s.io namespace 下的 CR 时，需要设置 annotation &quot;api-approved.kubernetes.io&quot;，approved 的 CR，该值要以 &quot;approved&quot; 开头" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;" parent="30" vertex="1">
                     <mxGeometry y="319" width="516" height="73" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="FinalizingController：删除一个 CRD 时，清除它所有的 CR" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="30">
+                <mxCell id="28" value="FinalizingController：删除一个 CRD 时，清除它所有的 CR" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;" parent="30" vertex="1">
                     <mxGeometry y="427" width="516" height="73" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" value="openAPIController：观测 CRD 的变更，更新 OpenAPI 的 Spec" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="30">
+                <mxCell id="29" value="openAPIController：观测 CRD 的变更，更新 OpenAPI 的 Spec" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;" parent="30" vertex="1">
                     <mxGeometry y="527" width="516" height="73" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="16" target="38">
+                <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="16" target="38" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1058" y="-32" as="targetPoint"/>
                         <Array as="points">
@@ -107,7 +107,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="38" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="1">
+                <mxCell id="38" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=16;" parent="1" vertex="1">
                     <mxGeometry x="1058" y="-262" width="20" height="537" as="geometry"/>
                 </mxCell>
             </root>
