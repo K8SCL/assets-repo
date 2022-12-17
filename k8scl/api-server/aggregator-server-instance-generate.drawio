@@ -78,7 +78,7 @@
                 <mxCell id="8" value="安装 API Group 下的 Object 到 Generic Server" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#409EFF;" parent="7" vertex="1">
                     <mxGeometry width="564" height="24" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="Group &quot;apiregistration.k8s.io&quot; 下只有 &quot;APIService&quot; 这个 API Object 和它的子 object status;准备好 API Group information 后，调用 Generic Server 的 InstallAPIGroup" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" parent="7" vertex="1">
+                <mxCell id="9" value="Group &quot;&lt;font color=&quot;#ff9933&quot;&gt;apiregistration.k8s.io&lt;/font&gt;&quot; 下只有 &quot;APIService&quot; 这个 API Object 和它的子 object status;准备好 API Group information 后，调用 Generic Server 的 InstallAPIGroup" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" parent="7" vertex="1">
                     <mxGeometry y="37" width="562.8831683168318" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" value="" style="group;strokeColor=default;dashed=1;" parent="1" vertex="1" connectable="0">
@@ -87,7 +87,7 @@
                 <mxCell id="11" value="制作 Group Discovery Request 的 handler" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#409EFF;" parent="10" vertex="1">
                     <mxGeometry width="566" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="用于响应对 /apis 的请求和对 /apis/开头但没有命中其他 handler 的请求，返回结果是当前所有 Aggregated Server 支持的 API Group 集合" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" parent="10" vertex="1">
+                <mxCell id="12" value="用于响应对 &lt;font color=&quot;#ff9933&quot;&gt;/apis&lt;/font&gt; 的请求和对 &lt;font color=&quot;#ff9933&quot;&gt;/apis/&lt;/font&gt;开头但没有命中其他 handler 的请求，返回结果是当前所有 Aggregated Server 支持的 API Group 集合" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" parent="10" vertex="1">
                     <mxGeometry y="37" width="510.5319999999999" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" value="" style="group;strokeColor=default;dashed=1;" parent="1" vertex="1" connectable="0">
@@ -123,7 +123,7 @@
                 <mxCell id="45" value="制作一个 Informer" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#409EFF;" vertex="1" parent="44">
                     <mxGeometry width="564" height="24" as="geometry"/>
                 </mxCell>
-                <mxCell id="46" value="为后续监控 CRD 的变更使用" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="44">
+                <mxCell id="46" value="为后续监控 APIService Object 的变更使用" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;" vertex="1" parent="44">
                     <mxGeometry y="37" width="562.8831683168318" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="48" value="" style="group;strokeColor=default;dashed=1;" vertex="1" connectable="0" parent="1">
