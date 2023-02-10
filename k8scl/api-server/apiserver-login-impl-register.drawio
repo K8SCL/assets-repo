@@ -1,0 +1,135 @@
+<mxfile host="65bd71144e">
+    <diagram id="6SAV9wzA2q_b0EbCtw1K" name="第 1 页">
+        <mxGraphModel dx="3223" dy="2516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="7" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;" edge="1" parent="1">
+                    <mxGeometry width="140" relative="1" as="geometry">
+                        <mxPoint x="-50" y="160" as="sourcePoint"/>
+                        <mxPoint x="-50" y="1350" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="pkg/kubeapiserver/authenticator/config.go-&amp;gt;Config.New()" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
+                    <mxGeometry y="140" width="780" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="staging/src/k8s.io/apiserver/pkg/authentication/request/x509/x509.go&lt;br&gt;-&amp;gt;Authenticator(for x509 Cert 策略)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="200" width="1010" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="staging/src/k8s.io/apiserver/pkg/authentication/request/bearertoken/bearertoken.go&lt;br&gt;-&amp;gt;Authenticator" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="320" width="1110" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="staging/src/k8s.io/apiserver/plugin/pkg/authenticator/token/oidc/oidc.go&lt;br&gt;-&amp;gt;Authenticator(for OpenID Token 策略)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="131" y="480" width="1110" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="pkg/serviceaccount/jwt.go&lt;br&gt;-&amp;gt;Authenticator(for Service Account Token 策略)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="131" y="610" width="1110" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="staging/src/k8s.io/apiserver/plugin/pkg/authenticator/token/webhook/webhook.go&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;-&amp;gt;WebhookTokenAuthenticator(for Webhook Token 策略)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="131" y="740" width="1110" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="plugin/pkg/auth/authenticator/token/bootstrap/bootstrap.go&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;-&amp;gt;TokenAuthenticator(for bootstrap Token 策略)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="131" y="870" width="1110" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="staging/src/k8s.io/apiserver/plugin/pkg/authenticator/token/tokenfile/tokenfile.go&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;-&amp;gt;TokenAuthenticator(for Static File Token 策略)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="131" y="990" width="1110" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="staging/src/k8s.io/apiserver/pkg/authentication/request/headerrequest/requestheader.go&lt;br&gt;-&amp;gt;requestHeaderAuthRequestHandler(for Request Header 策略)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="1120" width="1110" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="staging/src/k8s.io/apiserver/pkg/authentication/request/anonymous/anonymous.go&lt;br&gt;-&amp;gt;Authenticator(for Anonymous 策略)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="1250" width="1110" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="18">
+                    <mxGeometry width="140" relative="1" as="geometry">
+                        <mxPoint y="160" as="sourcePoint"/>
+                        <mxPoint y="1290" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint y="160"/>
+                            <mxPoint x="-20" y="160"/>
+                            <mxPoint x="-20" y="1290"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1">
+                    <mxGeometry width="140" relative="1" as="geometry">
+                        <mxPoint x="-20" y="230" as="sourcePoint"/>
+                        <mxPoint x="60" y="230" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1">
+                    <mxGeometry width="140" relative="1" as="geometry">
+                        <mxPoint x="-20" y="359.23" as="sourcePoint"/>
+                        <mxPoint x="60" y="359.23" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="12">
+                    <mxGeometry width="140" relative="1" as="geometry">
+                        <mxPoint x="30" y="360" as="sourcePoint"/>
+                        <mxPoint x="120" y="519.23" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="30" y="520"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="13">
+                    <mxGeometry width="140" relative="1" as="geometry">
+                        <mxPoint x="30" y="360" as="sourcePoint"/>
+                        <mxPoint x="70" y="640" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="30" y="370"/>
+                            <mxPoint x="30" y="650"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="14">
+                    <mxGeometry width="140" relative="1" as="geometry">
+                        <mxPoint x="30" y="360" as="sourcePoint"/>
+                        <mxPoint x="141" y="660.0000000000001" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="30" y="370"/>
+                            <mxPoint x="30" y="780"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="15">
+                    <mxGeometry width="140" relative="1" as="geometry">
+                        <mxPoint x="30" y="360" as="sourcePoint"/>
+                        <mxPoint x="141" y="790" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="30" y="370"/>
+                            <mxPoint x="30" y="910"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="16">
+                    <mxGeometry width="140" relative="1" as="geometry">
+                        <mxPoint x="30" y="360" as="sourcePoint"/>
+                        <mxPoint x="141.00000000000023" y="920" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="30" y="370"/>
+                            <mxPoint x="30" y="1030"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1">
+                    <mxGeometry width="140" relative="1" as="geometry">
+                        <mxPoint x="-20" y="1160" as="sourcePoint"/>
+                        <mxPoint x="60" y="1160" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=none;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;endFill=0;" edge="1" parent="1">
+                    <mxGeometry width="140" relative="1" as="geometry">
+                        <mxPoint x="-50" y="160" as="sourcePoint"/>
+                        <mxPoint x="-20" y="160" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
