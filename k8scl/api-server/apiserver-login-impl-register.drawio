@@ -1,131 +1,222 @@
 <mxfile host="65bd71144e">
     <diagram id="6SAV9wzA2q_b0EbCtw1K" name="第 1 页">
-        <mxGraphModel dx="3223" dy="2516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="3223" dy="3685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="7" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;" edge="1" parent="1">
+                <mxCell id="81" value="" style="group;strokeColor=none;dashed=1;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-15" y="-360" width="1605" height="1520" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;" edge="1" parent="81">
                     <mxGeometry width="140" relative="1" as="geometry">
-                        <mxPoint x="-50" y="160" as="sourcePoint"/>
-                        <mxPoint x="-50" y="1350" as="targetPoint"/>
+                        <mxPoint y="246.19718309859158" as="sourcePoint"/>
+                        <mxPoint y="1520.0000000000002" as="targetPoint"/>
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="8" value="pkg/kubeapiserver/authenticator/config.go-&amp;gt;Config.New()" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
-                    <mxGeometry y="140" width="780" height="30" as="geometry"/>
+                <mxCell id="8" value="pkg/kubeapiserver/authenticator/config.go-&amp;gt;Config.New()" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="81">
+                    <mxGeometry x="60.338345864661655" y="224.7887323943662" width="941.278195488722" height="32.11267605633803" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="staging/src/k8s.io/apiserver/pkg/authentication/request/x509/x509.go&lt;br&gt;-&amp;gt;Authenticator(for x509 Cert 策略)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="60" y="200" width="1010" height="80" as="geometry"/>
+                <mxCell id="10" value="staging/src/k8s.io/apiserver/pkg/authentication/request/x509/x509.go&lt;br&gt;-&amp;gt;Authenticator(for x509 Cert 策略)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="81">
+                    <mxGeometry x="132.74436090225564" y="289.01408450704224" width="1218.8345864661655" height="85.63380281690142" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="staging/src/k8s.io/apiserver/pkg/authentication/request/bearertoken/bearertoken.go&lt;br&gt;-&amp;gt;Authenticator" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="60" y="320" width="1110" height="80" as="geometry"/>
+                <mxCell id="11" value="staging/src/k8s.io/apiserver/pkg/authentication/request/bearertoken/bearertoken.go&lt;br&gt;-&amp;gt;Authenticator" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="81">
+                    <mxGeometry x="132.74436090225564" y="417.4647887323944" width="1339.5112781954888" height="85.63380281690142" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="staging/src/k8s.io/apiserver/plugin/pkg/authenticator/token/oidc/oidc.go&lt;br&gt;-&amp;gt;Authenticator(for OpenID Token 策略)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="131" y="480" width="1110" height="80" as="geometry"/>
+                <mxCell id="12" value="staging/src/k8s.io/apiserver/plugin/pkg/authenticator/token/oidc/oidc.go&lt;br&gt;-&amp;gt;Authenticator(for OpenID Token 策略)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="81">
+                    <mxGeometry x="218.42481203007523" y="588.7323943661972" width="1339.5112781954888" height="85.63380281690142" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="pkg/serviceaccount/jwt.go&lt;br&gt;-&amp;gt;Authenticator(for Service Account Token 策略)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="131" y="610" width="1110" height="80" as="geometry"/>
+                <mxCell id="13" value="pkg/serviceaccount/jwt.go&lt;br&gt;-&amp;gt;Authenticator(for Service Account Token 策略)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="81">
+                    <mxGeometry x="218.42481203007523" y="727.887323943662" width="1339.5112781954888" height="85.63380281690142" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="staging/src/k8s.io/apiserver/plugin/pkg/authenticator/token/webhook/webhook.go&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;-&amp;gt;WebhookTokenAuthenticator(for Webhook Token 策略)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="131" y="740" width="1110" height="80" as="geometry"/>
+                <mxCell id="14" value="staging/src/k8s.io/apiserver/plugin/pkg/authenticator/token/webhook/webhook.go&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;-&amp;gt;WebhookTokenAuthenticator(for Webhook Token 策略)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="81">
+                    <mxGeometry x="218.42481203007523" y="867.0422535211269" width="1339.5112781954888" height="85.63380281690142" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="plugin/pkg/auth/authenticator/token/bootstrap/bootstrap.go&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;-&amp;gt;TokenAuthenticator(for bootstrap Token 策略)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="131" y="870" width="1110" height="80" as="geometry"/>
+                <mxCell id="15" value="plugin/pkg/auth/authenticator/token/bootstrap/bootstrap.go&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;-&amp;gt;TokenAuthenticator(for bootstrap Token 策略)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="81">
+                    <mxGeometry x="218.42481203007523" y="1006.1971830985916" width="1339.5112781954888" height="85.63380281690142" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="staging/src/k8s.io/apiserver/plugin/pkg/authenticator/token/tokenfile/tokenfile.go&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;-&amp;gt;TokenAuthenticator(for Static File Token 策略)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="131" y="990" width="1110" height="80" as="geometry"/>
+                <mxCell id="16" value="staging/src/k8s.io/apiserver/plugin/pkg/authenticator/token/tokenfile/tokenfile.go&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;-&amp;gt;TokenAuthenticator(for Static File Token 策略)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="81">
+                    <mxGeometry x="218.42481203007523" y="1134.647887323944" width="1339.5112781954888" height="85.63380281690142" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="staging/src/k8s.io/apiserver/pkg/authentication/request/headerrequest/requestheader.go&lt;br&gt;-&amp;gt;requestHeaderAuthRequestHandler(for Request Header 策略)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="60" y="1120" width="1110" height="80" as="geometry"/>
+                <mxCell id="17" value="staging/src/k8s.io/apiserver/pkg/authentication/request/headerrequest/requestheader.go&lt;br&gt;-&amp;gt;requestHeaderAuthRequestHandler(for Request Header 策略)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="81">
+                    <mxGeometry x="132.74436090225564" y="1273.8028169014087" width="1423.984962406015" height="85.63380281690142" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="staging/src/k8s.io/apiserver/pkg/authentication/request/anonymous/anonymous.go&lt;br&gt;-&amp;gt;Authenticator(for Anonymous 策略)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="60" y="1250" width="1110" height="80" as="geometry"/>
+                <mxCell id="18" value="staging/src/k8s.io/apiserver/pkg/authentication/request/anonymous/anonymous.go&lt;br&gt;-&amp;gt;Authenticator(for Anonymous 策略)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="81">
+                    <mxGeometry x="132.74436090225564" y="1412.9577464788733" width="1423.984962406015" height="85.63380281690142" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="18">
+                <mxCell id="19" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="81" target="18">
                     <mxGeometry width="140" relative="1" as="geometry">
-                        <mxPoint y="160" as="sourcePoint"/>
-                        <mxPoint y="1290" as="targetPoint"/>
+                        <mxPoint x="60.338345864661655" y="246.19718309859158" as="sourcePoint"/>
+                        <mxPoint x="60.338345864661655" y="1455.774647887324" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint y="160"/>
-                            <mxPoint x="-20" y="160"/>
-                            <mxPoint x="-20" y="1290"/>
+                            <mxPoint x="60.338345864661655" y="246.19718309859158"/>
+                            <mxPoint x="36.203007518796994" y="246.19718309859158"/>
+                            <mxPoint x="36.203007518796994" y="1455.774647887324"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="22" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1">
+                <mxCell id="22" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="81">
                     <mxGeometry width="140" relative="1" as="geometry">
-                        <mxPoint x="-20" y="230" as="sourcePoint"/>
-                        <mxPoint x="60" y="230" as="targetPoint"/>
+                        <mxPoint x="36.203007518796994" y="321.12676056338034" as="sourcePoint"/>
+                        <mxPoint x="132.74436090225564" y="321.12676056338034" as="targetPoint"/>
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="24" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1">
+                <mxCell id="24" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="81">
                     <mxGeometry width="140" relative="1" as="geometry">
-                        <mxPoint x="-20" y="359.23" as="sourcePoint"/>
-                        <mxPoint x="60" y="359.23" as="targetPoint"/>
+                        <mxPoint x="36.203007518796994" y="459.45746478873247" as="sourcePoint"/>
+                        <mxPoint x="132.74436090225564" y="459.45746478873247" as="targetPoint"/>
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="26" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="12">
+                <mxCell id="26" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="81" target="12">
                     <mxGeometry width="140" relative="1" as="geometry">
-                        <mxPoint x="30" y="360" as="sourcePoint"/>
-                        <mxPoint x="120" y="519.23" as="targetPoint"/>
+                        <mxPoint x="96.54135338345866" y="460.2816901408451" as="sourcePoint"/>
+                        <mxPoint x="205.15037593984962" y="630.7250704225353" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="30" y="520"/>
+                            <mxPoint x="96.54135338345866" y="631.5492957746479"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="27" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="13">
+                <mxCell id="27" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="81" target="13">
                     <mxGeometry width="140" relative="1" as="geometry">
-                        <mxPoint x="30" y="360" as="sourcePoint"/>
-                        <mxPoint x="70" y="640" as="targetPoint"/>
+                        <mxPoint x="96.54135338345866" y="460.2816901408451" as="sourcePoint"/>
+                        <mxPoint x="144.81203007518798" y="760.0000000000001" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="30" y="370"/>
-                            <mxPoint x="30" y="650"/>
+                            <mxPoint x="96.54135338345866" y="470.9859154929578"/>
+                            <mxPoint x="96.54135338345866" y="770.7042253521128"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="28" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="14">
+                <mxCell id="28" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="81" target="14">
                     <mxGeometry width="140" relative="1" as="geometry">
-                        <mxPoint x="30" y="360" as="sourcePoint"/>
-                        <mxPoint x="141" y="660.0000000000001" as="targetPoint"/>
+                        <mxPoint x="96.54135338345866" y="460.2816901408451" as="sourcePoint"/>
+                        <mxPoint x="230.49248120300754" y="781.4084507042255" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="30" y="370"/>
-                            <mxPoint x="30" y="780"/>
+                            <mxPoint x="96.54135338345866" y="470.9859154929578"/>
+                            <mxPoint x="96.54135338345866" y="909.8591549295776"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="29" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="15">
+                <mxCell id="29" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="81" target="15">
                     <mxGeometry width="140" relative="1" as="geometry">
-                        <mxPoint x="30" y="360" as="sourcePoint"/>
-                        <mxPoint x="141" y="790" as="targetPoint"/>
+                        <mxPoint x="96.54135338345866" y="460.2816901408451" as="sourcePoint"/>
+                        <mxPoint x="230.49248120300754" y="920.5633802816902" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="30" y="370"/>
-                            <mxPoint x="30" y="910"/>
+                            <mxPoint x="96.54135338345866" y="470.9859154929578"/>
+                            <mxPoint x="96.54135338345866" y="1049.0140845070423"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="30" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="16">
+                <mxCell id="30" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="81" target="16">
                     <mxGeometry width="140" relative="1" as="geometry">
-                        <mxPoint x="30" y="360" as="sourcePoint"/>
-                        <mxPoint x="141.00000000000023" y="920" as="targetPoint"/>
+                        <mxPoint x="96.54135338345866" y="460.2816901408451" as="sourcePoint"/>
+                        <mxPoint x="230.4924812030078" y="1059.718309859155" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="30" y="370"/>
-                            <mxPoint x="30" y="1030"/>
+                            <mxPoint x="96.54135338345866" y="470.9859154929578"/>
+                            <mxPoint x="96.54135338345866" y="1177.4647887323945"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="31" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1">
+                <mxCell id="31" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="81">
                     <mxGeometry width="140" relative="1" as="geometry">
-                        <mxPoint x="-20" y="1160" as="sourcePoint"/>
-                        <mxPoint x="60" y="1160" as="targetPoint"/>
+                        <mxPoint x="36.203007518796994" y="1316.619718309859" as="sourcePoint"/>
+                        <mxPoint x="132.74436090225564" y="1316.619718309859" as="targetPoint"/>
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="32" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=none;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;endFill=0;" edge="1" parent="1">
+                <mxCell id="32" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=none;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;endFill=0;" edge="1" parent="81">
                     <mxGeometry width="140" relative="1" as="geometry">
-                        <mxPoint x="-50" y="160" as="sourcePoint"/>
-                        <mxPoint x="-20" y="160" as="targetPoint"/>
+                        <mxPoint y="246.19718309859158" as="sourcePoint"/>
+                        <mxPoint x="36.203007518796994" y="246.19718309859158" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="登录器的实现和加载" id="33">
+                    <mxCell style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;" vertex="1" parent="81">
+                        <mxGeometry width="470.639097744361" height="42.81690140845071" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="34" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;shape=link;" edge="1" parent="81">
+                    <mxGeometry width="140" relative="1" as="geometry">
+                        <mxPoint y="74.92957746478874" as="sourcePoint"/>
+                        <mxPoint x="1605" y="74.92957746478874" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="82" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-20" y="1310" width="1650" height="1120" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;" edge="1" parent="82">
+                    <mxGeometry width="140" relative="1" as="geometry">
+                        <mxPoint x="14.626865671641792" y="230.27844036697246" as="sourcePoint"/>
+                        <mxPoint x="15" y="890" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" value="pkg/kubeapiserver/authorizer/config.go-&amp;gt;Config.New()" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="82">
+                    <mxGeometry x="-10" y="220.0032110091743" width="960.4477611940298" height="30.825688073394492" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="plugin/pkg/auth/authorizer/rbac/rbac.go&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;-&amp;gt;RBACAuthorizer(for RBAC Mode)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="82">
+                    <mxGeometry x="212.87313432835822" y="374.1316513761468" width="1366.7910447761194" height="82.2018348623853" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="plugin/pkg/auth/authorizer/abac/abac.go&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;-&amp;gt;RBACAuthorizer(for ABAC Mode)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="82">
+                    <mxGeometry x="212.87313432835822" y="507.70963302752284" width="1366.7910447761194" height="82.2018348623853" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="staging/src/k8s.io/apiserver/plugin/pkg/authorizer/webhook/webhook.go&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;-&amp;gt;WebhookAuthorizer(for Webhook Mode)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="82">
+                    <mxGeometry x="212.87313432835822" y="641.2876146788989" width="1366.7910447761194" height="82.2018348623853" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="plugin/pkg/auth/authorizer/node/node_authorizer.go&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;-&amp;gt;RBACAuthorizer(for Node Mode)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;align=left;" vertex="1" parent="82">
+                    <mxGeometry x="212.87313432835822" y="774.865596330275" width="1366.7910447761194" height="82.2018348623853" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="82" target="62">
+                    <mxGeometry width="140" relative="1" as="geometry">
+                        <mxPoint x="88.50746268656717" y="250.82889908256877" as="sourcePoint"/>
+                        <mxPoint x="199.32835820895522" y="414.4413761467889" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="88.50746268656717" y="415.23256880733936"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="82" target="63">
+                    <mxGeometry width="140" relative="1" as="geometry">
+                        <mxPoint x="88.50746268656717" y="250.82889908256877" as="sourcePoint"/>
+                        <mxPoint x="137.76119402985074" y="538.5353211009174" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="88.50746268656717" y="261.10412844036694"/>
+                            <mxPoint x="88.50746268656717" y="548.8105504587155"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="74" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="82" target="64">
+                    <mxGeometry width="140" relative="1" as="geometry">
+                        <mxPoint x="88.50746268656717" y="250.82889908256877" as="sourcePoint"/>
+                        <mxPoint x="225.18656716417908" y="559.0857798165137" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="88.50746268656717" y="261.10412844036694"/>
+                            <mxPoint x="88.50746268656717" y="682.3885321100915"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="75" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="82" target="65">
+                    <mxGeometry width="140" relative="1" as="geometry">
+                        <mxPoint x="88.50746268656717" y="250.82889908256877" as="sourcePoint"/>
+                        <mxPoint x="225.18656716417908" y="692.6637614678898" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="88.50746268656717" y="261.10412844036694"/>
+                            <mxPoint x="88.50746268656717" y="815.9665137614677"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="鉴权器的实现和加载" id="79">
+                    <mxCell style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;" vertex="1" parent="82">
+                        <mxGeometry x="12.313432835820896" width="480.2238805970149" height="41.10091743119265" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="80" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=30;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;shape=link;" edge="1" parent="82">
+                    <mxGeometry width="140" relative="1" as="geometry">
+                        <mxPoint x="12.313432835820896" y="71.92660550458714" as="sourcePoint"/>
+                        <mxPoint x="1650" y="71.92660550458714" as="targetPoint"/>
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
