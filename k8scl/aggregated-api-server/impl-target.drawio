@@ -1,0 +1,134 @@
+<mxfile host="65bd71144e">
+    <diagram id="SdPyyGucUvwcCTXeZd4F" name="第 1 页">
+        <mxGraphModel dx="2396" dy="1504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="72" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="70" y="90" width="1280" height="510" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="group" vertex="1" connectable="0" parent="72">
+                    <mxGeometry x="180" width="230" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#5EE4FF;" vertex="1" parent="13">
+                    <mxGeometry width="230" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="控制面" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;" vertex="1" parent="13">
+                    <mxGeometry x="70" y="10" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="API Server&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="13">
+                    <mxGeometry x="10" y="50" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Scheduler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="13">
+                    <mxGeometry x="140" y="50" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="...." style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="13">
+                    <mxGeometry x="85" y="50" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="group" vertex="1" connectable="0" parent="72">
+                    <mxGeometry y="165" width="230" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#5EE4FF;" vertex="1" parent="23">
+                    <mxGeometry width="230" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Node" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;" vertex="1" parent="23">
+                    <mxGeometry x="75" y="180" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#5EE4FF;fontSize=26;dashed=1;" vertex="1" parent="23">
+                    <mxGeometry x="25" y="10" width="160" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Aggregated API Server" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;" vertex="1" parent="23">
+                    <mxGeometry x="35" y="150" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="group" vertex="1" connectable="0" parent="23">
+                    <mxGeometry x="45" y="20" width="120" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Service" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#82b366;fontSize=12;fillColor=#d5e8d4;gradientColor=#97d077;" vertex="1" parent="22">
+                    <mxGeometry width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Pod" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#82b366;fontSize=12;fillColor=#d5e8d4;gradientColor=#97d077;" vertex="1" parent="22">
+                    <mxGeometry y="90" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Deployment" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#82b366;fontSize=12;fillColor=#d5e8d4;gradientColor=#97d077;" vertex="1" parent="22">
+                    <mxGeometry y="45" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="" style="group" vertex="1" connectable="0" parent="72">
+                    <mxGeometry x="380" y="200" width="160" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#5EE4FF;" vertex="1" parent="43">
+                    <mxGeometry width="160" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Node" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;" vertex="1" parent="43">
+                    <mxGeometry x="54" y="110" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Pod" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="43">
+                    <mxGeometry x="40" y="10" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="43">
+                    <mxGeometry x="44" y="70" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="...." style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="43">
+                    <mxGeometry x="50" y="30" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.546;exitY=-0.02;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#5EE4FF;startArrow=open;startFill=0;" edge="1" parent="72" source="16" target="8">
+                    <mxGeometry width="140" relative="1" as="geometry">
+                        <mxPoint y="90" as="sourcePoint"/>
+                        <mxPoint x="140" y="90" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="112" y="140"/>
+                            <mxPoint x="230" y="140"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.556;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#5EE4FF;fontSize=12;startArrow=open;startFill=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="72" source="2" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="group" vertex="1" connectable="0" parent="72">
+                    <mxGeometry x="35" y="430" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="58">
+                    <mxGeometry width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="Image" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#82b366;fontSize=12;fillColor=#d5e8d4;gradientColor=#97d077;" vertex="1" parent="58">
+                    <mxGeometry x="20" y="10" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="Docker Hub" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;" vertex="1" parent="58">
+                    <mxGeometry x="25" y="50" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="" style="group" vertex="1" connectable="0" parent="72">
+                    <mxGeometry x="310" y="430" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="61">
+                    <mxGeometry width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="cide-apiserver" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#82b366;fontSize=12;fillColor=#d5e8d4;gradientColor=#97d077;" vertex="1" parent="61">
+                    <mxGeometry x="20" y="10" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="Github" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;" vertex="1" parent="61">
+                    <mxGeometry x="25" y="50" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#5EE4FF;fontSize=12;startArrow=none;startFill=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="72" source="5" target="62">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#5EE4FF;fontSize=12;startArrow=none;startFill=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="72" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="" style="group" vertex="1" connectable="0" parent="72">
+                    <mxGeometry x="620" width="660" height="410" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="扩展目标" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=40;" vertex="1" parent="71">
+                    <mxGeometry width="250" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="我们的 APIServer将支持如下 API Object" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=26;" vertex="1" parent="71">
+                    <mxGeometry x="30" y="60" width="490" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(32, 40, 49); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 20px; line-height: 27px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #ff92bb;font-weight: bold;&quot;&gt;apiVersion&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;autobusi.group.cide/v1alpha&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ff92bb;font-weight: bold;&quot;&gt;kind&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;JenkinsService&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ff92bb;font-weight: bold;&quot;&gt;metadata&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #ff92bb;font-weight: bold;&quot;&gt;name&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;the-js-1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ff92bb;font-weight: bold;&quot;&gt;spec&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #ff92bb;font-weight: bold;&quot;&gt;instanceamount&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;: 2&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #ff92bb;font-weight: bold;&quot;&gt;instancecpu&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;: 2&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=26;" vertex="1" parent="71">
+                    <mxGeometry x="40" y="100" width="460" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="注意：制作 Controller 来观测我们的 Aggregated API Server 中的 JenkinsService 实例，然后按照要求创建 Jenkins Server 不在这次的目标范畴" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=22;" vertex="1" parent="71">
+                    <mxGeometry x="40" y="320" width="620" height="90" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
